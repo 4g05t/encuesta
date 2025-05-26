@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   <h1 id="title">Encuesta Obligatoria</h1>
+   <p id="description">Requerimos que llenes esta encuesta para poder ingresar a nuesta institución</p>
+   <form id="survey-form"  action=""> 
+     <fieldset>
+       <legend>Rellene con sus datos:</legend>
+       <label id="name-label">Nombre:  <input id="name" type="text" placeholder="Escribe tu nombre aqui" required /></label>
+       <label id="email-label">Email: <input id="email" type="email" placeholder="Escribe tu email aqui" required /></label>
+       <label id="number-label">Edad: <input id="number" type="number" min="16" max="25" placeholder="Escribe tu edad aqui" required/></label>
+     </fieldset>
+    <fieldset>
+    <legend>¿Qué modalidad prefieres para tus clases?</legend>
+    <select id="dropdown">
+      <option value="">(seleccione uno)</option>
+      <option value="1">clases virtuales</option>
+      <option value="2">clases presenciales</option>
+      <option value="3">Ambas modalidades</option>
+    </select>
+    </fieldset>
+    <fieldset>
+         <legend>Elija el idioma que desee aprender</legend>
+      <label><input id="lengua" type="radio" name="lenguajes" value="lengua"/>Ingles</label>
+         <label><input id="leng" type="radio" name="lenguajes" value="leng" />Portugues</label>
+         </fieldset>
+         <fieldset>
+         <label for="comentario">
+       <legend>¿Cuales son los horarios que tienes disponibles?</legend>
+            <input id="mañana" type="checkbox" name="horarios" value="mañana" checked> <label class="hora" for="mañana">Mañana</label>
+            <input id="tarde" type="checkbox" name="horarios" value="tarde"> <label class="hora" for="tarde">Tarde</label>
+            <input id="noche" type="checkbox" name="horarios" value="noche"> <label class="hora" for="noche">Noche</label>
+    </select> 
+    </fieldset>    
+       <legend>Agrega comentarios de algunas asignaturas que te intersen, a parte de las mencionadas:</legend>    
+ <textarea id="comentario"></textarea></label> 
+    </select>
+    <input id="submit" type="submit"/>
+  </body>
+  </html>

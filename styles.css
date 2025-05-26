@@ -1,0 +1,86 @@
+h1{
+  font-size:45px;
+  font-family: Tahoba;
+  text-align: center;
+  margin: 1em auto;
+  color:rgb(211, 236, 192);
+}
+body{
+  background-image:radial-gradient(rgb(28, 110, 56),rgb(14, 74, 42),rgb(24, 27, 27));
+  font-size:21px;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+p{
+  color:rgb(211, 236, 192);
+  font-size:30px;
+  text-align:center;
+  margin:1em auto;
+}
+label{
+  display:block;
+  margin:0.5rem 0;
+  font-size:25px;
+  color:rgb(211, 236, 192);
+  
+}
+input,textarea{
+  background-color: rgb(223, 241, 230);
+  min-height:2em;
+  border:none;
+  display:block;
+  width:100%
+}
+input[type="checkbox"]{
+ margin-top:2rem;
+ margin-bottom:2em;
+ margin-right:2em;
+ margin-left:-13rem;
+}
+.hora{
+  margin-left:70px;
+  margin-top:-55px;
+}
+
+input[type="radio"]{
+  display:inline-block;
+  color:rgb(211, 236, 192);
+  width:20px;
+
+  
+}
+fieldset{
+  padding: 2rem 0; 
+  border:none;
+  border-bottom:3px solid rgb(35, 76, 4);;
+  margin-bottom:2rem;
+}
+input[type="submit"]{
+  display:block;
+  width:30%;
+  height:2em;
+  font-size:1.1rem;
+  margin:0 auto;
+}
+legend{
+  font-size:25px;
+  font-family: Tahoba;
+  color:rgb(211, 236, 192);
+  margin-top:1rem;
+}
+textarea{
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+select{
+ margin-top:2rem;
+ margin-right:2rem;
+ display:block; 
+ width:100%;
+ min-height:3em;
+}
